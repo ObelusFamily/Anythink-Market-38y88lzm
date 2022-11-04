@@ -27,6 +27,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
 }
+
 .page {
   margin-top: 2 * $spacer;
   margin-bottom: 2 * $spacer;
@@ -58,4 +59,10 @@ body {
 
 .user-info {
   min-width: 800px;
+}
+
+@media (max-width: 576px) {
+  .user-info {
+    min-width: 414px;
+  }
 }
